@@ -1,0 +1,72 @@
+.box{
+	min-height: 250px;
+  width: 250px;
+  margin: 10px;
+}
+
+.red{
+	background-color: red;
+}
+.green{
+	background-color: green;
+}
+.pink{
+	background-color: deeppink;
+}
+.black{
+	background-color: black;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+
+/*isotope area*/
+.grid-item{
+    width: 25%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.button-group{
+    display: flex;
+    justify-content: center;
+}
+.button-group button{
+    background-color: transparent;
+    border: 1px solid #08526d;
+    padding: 10px 20px;
+   text-transform: uppercase;
+    text-align: center;
+    margin: 0 5px 35px;
+    color: #08526d;
+    cursor: pointer;
+}
+.grid-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 40px;
+    transform: scale(0);
+    transition: .5s;
+}
+.grid-item:hover .grid-overlay{
+    transform: scale(1);
+}
+
+
+
+
+
+
+
+
